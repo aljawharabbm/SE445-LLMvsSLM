@@ -12,7 +12,7 @@ Each example is an English utterance describing a facility command. The gold tar
 
 ---
 
-## Experimental configuration (frozen for reporting)
+## Experimental configuration 
 
 The **HF** benchmark uses **`google/flan-t5-small`**, **`--limit 12`** over the bundled dataset **`ug9_benchmark/data/iot_commands.json`** (identifiers **`ex01`–`ex12`**). Decoder settings match the shipped runners (beam search, no sampling caps on output length consistent with **`slm_runner.py`**).
 
@@ -55,7 +55,7 @@ The gap between **`ex02`** near **0.07 s** and **`ex08`** near **0.17 s** among 
 
 ---
 
-## How to reproduce (send this folder to a teammate)
+## How to reproduce
 
 Someone receiving only the repo (no **`.venv`**, no **`*.gguf`**) needs **Python 3.10+** and outbound internet for **`pip`** and Hugging Face / GGUF downloads.
 
