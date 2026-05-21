@@ -1,0 +1,44 @@
+=== Local GGUF comparison ===
+
+IQ3_XS:  SmolLM2-135M-Instruct-IQ3_XS.gguf  (84.1 MB)
+Q4_K_M: SmolLM2-135M-Instruct-Q4_K_M.gguf (100.6 MB)
+
+Command: "Dim office lights to 60 percent."
+
+Loading IQ3_XS…
+Running IQ3_XS inference…
+Loading Q4_K_M…
+Running Q4_K_M inference…
+
+--- Results ---
+
+Metric                 IQ3_XS               Q4_K_M                  
+------------------------------------------------------------------
+Inference time (s)     0.251                0.298                   
+Field accuracy         0.00                 0.00                    
+
+Gold JSON: {"device": "office_lights", "action": "set_brightness", "value": 60, "unit": "percent"}
+
+IQ3_XS output:
+ {
+  "action": "Dim office lights to 60 percent",
+  "value": {
+    "number": 1,
+    "unit": "percent"
+  },
+}
+
+Q4_K_M output:
+ {
+  "device": {
+    "name": "Office",
+    "action": "Dim office lights to 60%"
+  },
+  "value": {
+    "number": 1,
+    "unit": null
+  }
+}
+
+Per-field (IQ3_XS): {'device': False, 'action': False, 'value': False, 'unit': False}
+Per-field (Q4_K_M): {'device': False, 'action': False, 'value': False, 'unit': False}

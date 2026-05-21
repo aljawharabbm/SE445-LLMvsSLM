@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+*.csv
+models/gguf/*.gguf
+models/gguf/.cache/
+
+# Local submission / backup archives (keep the repo lightweight)
+*.zip
+
+# Microsoft Office temporary lock files (e.g. ~$Report.docx)
+~$*
+
+# Python packaging / tooling noise
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Optional IDE (remove these lines if you prefer committing editor settings)
+.idea/

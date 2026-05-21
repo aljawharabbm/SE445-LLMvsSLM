@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ex01",
+    "text": "Set the bedroom thermostat to 23 degrees Celsius.",
+    "gold": {
+      "device": "bedroom_thermostat",
+      "action": "set_temperature",
+      "value": 23,
+      "unit": "celsius"
+    }
+  },
+  {
+    "id": "ex02",
+    "text": "Turn off all kitchen lights.",
+    "gold": {
+      "device": "kitchen_lights",
+      "action": "turn_off",
+      "value": null,
+      "unit": null
+    }
+  },
+  {
+    "id": "ex03",
+    "text": "Dim living room lights to 40 percent.",
+    "gold": {
+      "device": "living_room_lights",
+      "action": "set_brightness",
+      "value": 40,
+      "unit": "percent"
+    }
+  },
+  {
+    "id": "ex04",
+    "text": "Lock the front door now.",
+    "gold": {
+      "device": "front_door_lock",
+      "action": "lock",
+      "value": null,
+      "unit": null
+    }
+  },
+  {
+    "id": "ex05",
+    "text": "Open garage door halfway.",
+    "gold": {
+      "device": "garage_door",
+      "action": "set_position",
+      "value": 50,
+      "unit": "percent"
+    }
+  },
+  {
+    "id": "ex06",
+    "text": "Start irrigation zone 2 for 15 minutes.",
+    "gold": {
+      "device": "irrigation_zone_2",
+      "action": "irrigate_duration",
+      "value": 15,
+      "unit": "minutes"
+    }
+  },
+  {
+    "id": "ex07",
+    "text": "Increase greenhouse humidity by 5 percent.",
+    "gold": {
+      "device": "greenhouse_humidifier",
+      "action": "adjust_humidity",
+      "value": 5,
+      "unit": "percent_delta"
+    }
+  },
+  {
+    "id": "ex08",
+    "text": "Turn on the air purifier in the clinic waiting room.",
+    "gold": {
+      "device": "clinic_waiting_room_purifier",
+      "action": "turn_on",
+      "value": null,
+      "unit": null
+    }
+  },
+  {
+    "id": "ex09",
+    "text": "Pause the classroom projector.",
+    "gold": {
+      "device": "classroom_projector",
+      "action": "pause",
+      "value": null,
+      "unit": null
+    }
+  },
+  {
+    "id": "ex10",
+    "text": "Set stadium floodlights to game mode.",
+    "gold": {
+      "device": "stadium_floodlights",
+      "action": "set_mode",
+      "value": "game",
+      "unit": null
+    }
+  },
+  {
+    "id": "ex11",
+    "text": "Lower blinds in conference room A to 20 percent.",
+    "gold": {
+      "device": "conference_room_a_blinds",
+      "action": "set_position",
+      "value": 20,
+      "unit": "percent"
+    }
+  },
+  {
+    "id": "ex12",
+    "text": "Report traffic sensor north bridge status.",
+    "gold": {
+      "device": "traffic_sensor_north_bridge",
+      "action": "report_status",
+      "value": null,
+      "unit": null
+    }
+  }
+]

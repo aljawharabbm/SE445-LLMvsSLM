@@ -1,0 +1,39 @@
+=== HF SLM labeled benchmark ===
+
+Dataset: /Users/maazsajjad/Desktop/Umar-Tasks/SE445-LLMvsSLM/ug9_benchmark/data/iot_commands.json
+Model: google/flan-t5-small
+Examples: 12
+
+Loading model…
+[1/12] id=ex01  acc=0.00  lat=0.551s
+[2/12] id=ex02  acc=0.00  lat=0.067s
+[3/12] id=ex03  acc=0.00  lat=0.114s
+[4/12] id=ex04  acc=0.00  lat=0.096s
+[5/12] id=ex05  acc=0.00  lat=0.087s
+[6/12] id=ex06  acc=0.00  lat=0.115s
+[7/12] id=ex07  acc=0.00  lat=0.097s
+[8/12] id=ex08  acc=0.00  lat=0.171s
+[9/12] id=ex09  acc=0.00  lat=0.087s
+[10/12] id=ex10  acc=0.00  lat=0.125s
+[11/12] id=ex11  acc=0.00  lat=0.160s
+[12/12] id=ex12  acc=0.00  lat=0.124s
+
+--- Per-row ---
+id=ex01	lat=0.551412s	acc=0.0	tok_out=12	rss_mb=622.09
+id=ex02	lat=0.06691s	acc=0.0	tok_out=5	rss_mb=622.23
+id=ex03	lat=0.113849s	acc=0.0	tok_out=12	rss_mb=622.69
+id=ex04	lat=0.095504s	acc=0.0	tok_out=10	rss_mb=622.83
+id=ex05	lat=0.086721s	acc=0.0	tok_out=8	rss_mb=622.89
+id=ex06	lat=0.115354s	acc=0.0	tok_out=12	rss_mb=623.06
+id=ex07	lat=0.097485s	acc=0.0	tok_out=8	rss_mb=623.22
+id=ex08	lat=0.171327s	acc=0.0	tok_out=17	rss_mb=623.36
+id=ex09	lat=0.087125s	acc=0.0	tok_out=7	rss_mb=623.47
+id=ex10	lat=0.124932s	acc=0.0	tok_out=12	rss_mb=623.61
+id=ex11	lat=0.160134s	acc=0.0	tok_out=16	rss_mb=623.7
+id=ex12	lat=0.124303s	acc=0.0	tok_out=11	rss_mb=623.83
+
+--- Summary ---
+Mean latency (s): 0.150
+Mean field accuracy: 0.00
+
+Wrote CSV to reports/paper_slm.csv
